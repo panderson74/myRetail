@@ -1,0 +1,14 @@
+<div *ngIf="product" class="jumbotron">
+	<div class="container-fluid">
+  		<div class="row">
+  			<div class="col-7">
+				<div><span>tcin: </span>{{product.tcin}}</div>
+				<div><span>name: </span>{{product.name}}</div>
+				<div><span>price: </span>{{product.price}}</div>
+			</div>
+  			<div class="col-1">
+				<img src="{{product.imageUrl}}" height="400" />
+			</div>
+		</div>
+	</div>
+</div>

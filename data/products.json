@@ -1,0 +1,172 @@
+{
+	"products": [
+		{
+		    "PutRequest": {
+		    	"Item": {
+			        "name": { "S": "The Big Lebowski (Blu-ray) (Widescreen)" },
+			        "productId": { "N": "13860428" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "13.49" },
+				            "currency_code": { "S": "USD" }
+				        }
+				    }
+			    }
+			}
+		},
+		{
+		    "PutRequest": {
+			    "Item": {
+			        "name": { "S": "Beetlejuice (20th Anniversary Edition) (Deluxe Edition) (dvd_video)" },
+			        "productId": { "N": "11342169" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "5.99" },
+				            "currency_code": { "S": "USD" }
+				        }
+			        }
+			    }
+			}
+		},
+		{
+		    "PutRequest": {
+			    "Item": {
+			        "name": { "S": "Home Alone" },
+			        "productId": { "N": "49165490" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "4.00" },
+				            "currency_code": { "S": "USD" }
+				        }
+			        }
+			    }
+			}
+		},
+		{
+		    "PutRequest": {
+			    "Item": {
+			        "name": { "S": "The Breakfast Club [30th Anniversary Edition]" },
+			        "productId": { "N": "16935474" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "4.00" },
+				            "currency_code": { "S": "USD" }
+				        }
+			        }
+			    }
+			}
+		},
+		{
+		    "PutRequest": {
+			    "Item": {
+			        "name": { "S": "Ghostbusters (2016) (DVD)" },
+			        "productId": { "N": "51383990" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "5.00" },
+				            "currency_code": { "S": "USD" }
+				        }
+			        }
+			    }
+			}
+		},
+		{
+		    "PutRequest": {
+			    "Item": {
+			        "name": { "S": "Home Alone 2: Lost in New York (DVD)" },
+			        "productId": { "N": "11323679" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "4.00" },
+				            "currency_code": { "S": "USD" }
+				        }
+			        }
+			    }
+			}
+		},
+		{
+		    "PutRequest": {
+			    "Item": {
+			        "name": { "S": "The Holiday (WS) (dvd_video)" },
+			        "productId": { "N": "11298213" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "4.00" },
+				            "currency_code": { "S": "USD" }
+				        }
+			        }
+			    }
+			}
+		},
+		{
+		    "PutRequest": {
+			    "Item": {
+			        "name": { "S": "The Great Outdoors/Uncle Buck" },
+			        "productId": { "N": "14289186" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "5.19" },
+				            "currency_code": { "S": "USD" }
+				        }
+			        }
+			    }
+			}
+		},
+		{
+		    "PutRequest": {
+			    "Item": {
+			        "name": { "S": "Back to the Future (2 Discs) (dvd_video)" },
+			        "productId": { "N": "14705948" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "4.00" },
+				            "currency_code": { "S": "USD" }
+				        }
+			        }
+			    }
+			}
+		},
+		{
+		    "PutRequest": {
+			    "Item": {
+			        "name": { "S": "Monty Python and the Holy Grail [Special Edition] [2 Discs]" },
+			        "productId": { "N": "11297758" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "4.99" },
+				            "currency_code": { "S": "USD" }
+				        }
+			        }
+			    }
+			}
+		},
+		{
+		    "PutRequest": {
+			    "Item": {
+			        "name": { "S": "Hotel Transylvania/Hotel Transylvania 2 (DVD)" },
+			        "productId": { "N": "52105798" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "10.00" },
+				            "currency_code": { "S": "USD" }
+				        }
+			        }
+			    }
+			}
+		},
+		{
+		    "PutRequest": {
+			    "Item": {
+			        "name": { "S": "The Princess Bride [20th Anniversary Edition]" },
+			        "productId": { "N": "14341459" },
+			        "current_price": {
+			        	"M": {
+				            "value": { "N": "4.99" },
+				            "currency_code": { "S": "USD" }
+				        }
+			        }
+			    }
+			}
+		}
+	]
+}

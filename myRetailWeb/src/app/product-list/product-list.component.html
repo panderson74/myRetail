@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-4 list-group list-panel">
+  	    <a href="#" *ngFor="let product of products" (click)="onSelect(product)" [class.selected]="product === selectedProduct" class="list-group-item list-group-item-action">{{ product.name | json : 4 }}</a>
+    </div>
+    <div class="col-8 detail-panel">
+      <app-product-detail [product]="selectedProduct"></app-product-detail>
+    </div>
+  </div>
+</div>

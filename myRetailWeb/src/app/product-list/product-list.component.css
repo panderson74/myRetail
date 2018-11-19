@@ -1,0 +1,16 @@
+.products {
+	text-align: left;
+	cursor: pointer;
+}
+.selected {
+	background-color: #FFB6C1;
+	font-style: bold;
+	color: #aa0000;
+}
+.list-panel {
+	height: 800px;
+	overflow-y: auto;
+}
+.detail-panel {
+	height: 800px;
+}
