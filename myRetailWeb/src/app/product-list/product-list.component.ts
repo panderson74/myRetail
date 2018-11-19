@@ -30,11 +30,8 @@ export class ProductListComponent implements OnInit {
       .subscribe((data: {}) => {
         imageUrl = this.imageUrlFromRedSkyJSON(data);
         priceInfo = this.priceFromRedSkyJSON(data);
-        console.log(imageUrl);
-        console.log(priceInfo);
         product.imageUrl = imageUrl;
-        product.price += priceInfo;
-        console.log(product);
+        product.price = product.oprice + priceInfo;
       });
   }
 

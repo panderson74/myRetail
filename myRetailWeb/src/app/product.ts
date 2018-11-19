@@ -4,6 +4,7 @@ export class Product {
 	tcin: number;
 	name: string;
 	price: string;
+	oprice: string;
 	imageUrl: string;
 	raw: Object;
 
@@ -16,7 +17,8 @@ export class Product {
 			var price = item["current_price"]["value"].toString();
 			var cCode = item["current_price"]["currency_code"];
 			p.imageUrl = "";
-			p.price = price + " " + cCode;
+			p.oprice = price + " " + cCode;
+			p.price = p.oprice;
 			p.raw = item; //JSON.stringify(item);
 			return p;
 		}
